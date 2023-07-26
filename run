@@ -1,0 +1,26 @@
+#!/bin/bash
+
+title() {
+  printf "\n\n==================================================\n"
+  printf "$@\n"
+  printf "==================================================\n"
+}
+
+idr() {
+  ./build/exec/${1}
+}
+
+title "Hello, world!"
+idr Hello
+
+title "Multiplication table"
+idr Times
+
+title "Triangle drawing"
+idr Triangle
+
+title "99 bottles of beer"
+idr Beer
+
+title "Print 1 to N"
+echo 10 | idr N

@@ -1,0 +1,13 @@
+package namuwiki-examples-idris2
+
+version = 1.0.0
+
+authors = "scarf"
+maintainers = "scarf"
+license = "AGPL-3.0-only"
+brief = "snippets for langugae examples in namuwiki"
+readme = "README.md"
+homepage = "https://github.com/scarf005/namuwiki-examples-idris2"
+bugtracker = "https://github.com/scarf005/namuwiki-examples-idris2/issues"
+
+langversion >= 0.6.0
